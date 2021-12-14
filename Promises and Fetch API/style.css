@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* .card-container {
+    width: 1500px;
+    height: 700px;
+    border: 2px green solid;
+  } */
+
+body {
+  background-color: grey;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  /* margin: auto; */
+  /* place-items: center; */
+  justify-content: space-evenly;
+
+  gap: 2px;
+}
+
+.country {
+  width: 350px;
+  height: 300px;
+  text-align: center;
+  /* margin: 50px; */
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 10px;
+}
+
+.country_img {
+  width: 350px;
+  height: 100px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.neighboring {
+  width: 100px;
+  height: 100px;
+}
+/* .country_data {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .country_name {
+    font-size: 1rem;
+  }
+  
+  .country_region {
+    font-size: 1.5rem;
+  }
+  .country_row {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  } */
